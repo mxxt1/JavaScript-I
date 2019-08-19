@@ -51,6 +51,20 @@ console.log(subtract(1,2));
 // });
 // console.log(triple);
 
+// exampleArray = [1,2,3,4];
+// const triple = (exampleArray.map(function(x)) => {num*3;});
+
+
+
+
+
+
+// let carModels = inventory.map(function(x){return x.car_model;});
+
+
+
+
+
 // givenArray = [1,2,3,4];
 // const triple = (givenArray.map(function(num))) =>{
 //     return num*3;
