@@ -54,6 +54,10 @@ console.log(subtract(1,2));
 // exampleArray = [1,2,3,4];
 // const triple = (exampleArray.map(function(x)) => {num*3;});
 
+exampleArray = [1,2,3,4];
+
+const triple = exampleArray.map(num => { return num * 3;});
+console.log(triple);
 
 
 
@@ -66,7 +70,9 @@ console.log(subtract(1,2));
 
 
 // givenArray = [1,2,3,4];
-// const triple = (givenArray.map(function(num))) =>{
+// const triple = (exampleArray = [1,2,3,4];
+
+// const triple = exampleArray.map((num) => num * 3);
 //     return num*3;
 // };
 // console.log(triple)
