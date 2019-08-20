@@ -96,13 +96,13 @@ console.log(carModelsSorted);
 
 //for loop version
 // let carModels = [];
+// let carModelsSorted = []
 // function getModels(){
 //   for (i=0;i<inventory.length;i++){
 //     carModels.push(inventory[i].car_model)
 //   }
-//   return carModels.sort();
+//   return carModelsSorted = carModels.sort();
 // };
-
 // console.log(getModels());
 
 
