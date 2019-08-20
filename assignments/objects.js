@@ -135,8 +135,7 @@ console.log(parent.secondGen.age);
 
 // Log the name and age of the grandchild
 
-console.log(parent.secondGen.thirdGen.name);
-console.log(parent.secondGen.thirdGen.age);
+console.log(parent.secondGen.thirdGen.name,parent.secondGen.thirdGen.age);
 
 // Have the parent speak
 
