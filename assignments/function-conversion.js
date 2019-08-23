@@ -5,20 +5,42 @@
 // };
 // myFunction();
 
+let myFunction = () => {
+    console.log("Function was invoked!");
+};
+myFunction();
+
+
 // let anotherFunction = function (param) {
 //   return param;
 // };
 // anotherFunction("Example");
+
+let anotherFunction = (param) => {
+    return param;
+};
+anotherFunction();
+console.log(anotherFunction("test"));
 
 // let add = function (param1, param2) {
 //   return param1 + param2;
 // };
 // add(1,2);
 
+let add = (param1,param2) =>{
+    return param1 + param2;
+};
+console.log(add(1,2));
+
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
 // };
 // subtract(1,2);
+
+let subtract = (param1,param2) =>{
+    return param1 - param2;
+};
+console.log(subtract(1,2));
 
 
 // Stretch
@@ -28,3 +50,29 @@
 //   return num * 3;
 // });
 // console.log(triple);
+
+// exampleArray = [1,2,3,4];
+// const triple = (exampleArray.map(function(x)) => {num*3;});
+
+exampleArray = [1,2,3,4];
+
+const triple = exampleArray.map(num => { return num * 3;});
+console.log(triple);
+
+
+
+
+
+// let carModels = inventory.map(function(x){return x.car_model;});
+
+
+
+
+
+// givenArray = [1,2,3,4];
+// const triple = (exampleArray = [1,2,3,4];
+
+// const triple = exampleArray.map((num) => num * 3);
+//     return num*3;
+// };
+// console.log(triple)
